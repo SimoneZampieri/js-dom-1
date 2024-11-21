@@ -5,5 +5,7 @@ const lampaAccesa = document.getElementById('accesa')
 bottone.addEventListener('click',() =>{
     lampaSpenta.classList.toggle('none')
     lampaAccesa.classList.toggle('none')
+    bottone.innerHTML = lampaSpenta.classList.contains('none') ? 'Spegni' : 'Accendi'
 }
 )
+
